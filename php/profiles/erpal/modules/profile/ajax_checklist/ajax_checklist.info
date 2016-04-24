@@ -1,0 +1,14 @@
+name = Ajax Checklist
+description = Creates filter-driven checklists with ajax updating to the database
+package = Other
+project = "ajax_checklist"
+core = 7.x
+
+files[] = ajax_checklist.info
+
+; Information added by Drupal.org packaging script on 2015-11-19
+version = "7.x-2.3"
+core = "7.x"
+project = "erpal"
+datestamp = "1447905070"
+

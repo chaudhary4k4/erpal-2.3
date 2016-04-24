@@ -1,0 +1,17 @@
+name = "Screenshot paste"
+description = "Allows the user to paste a screenshot from clipboard"
+core = "7.x"
+package = "Misc"
+
+files[] = screenshot_paste.module
+
+dependencies[] = libraries
+dependencies[] = ckeditor
+
+version = "7.x-1.0-beta"
+; Information added by Drupal.org packaging script on 2015-06-03
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "screenshot_paste"
+datestamp = "1433359983"
+

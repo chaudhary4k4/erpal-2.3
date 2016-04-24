@@ -1,0 +1,25 @@
+name = Timetracking
+description = Provides entity functionality for timetracking entites
+core = 7.x
+
+dependencies[] = entity
+dependencies[] = date_popup
+
+files[] = timetracking.module
+files[] = timetracking.install
+files[] = timetracking.admin.inc
+files[] = timetracking.entity.inc
+files[] = views/timetracking.views.inc
+files[] = views/timetracking_handler_link_field.inc
+files[] = views/timetracking_handler_delete_link_field.inc
+files[] = views/timetracking_handler_edit_link_field.inc
+files[] = views/timetracking_handler_timetracking_operations_field.inc
+
+
+
+; Information added by Drupal.org packaging script on 2015-06-03
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "timetracking"
+datestamp = "1433359687"
+

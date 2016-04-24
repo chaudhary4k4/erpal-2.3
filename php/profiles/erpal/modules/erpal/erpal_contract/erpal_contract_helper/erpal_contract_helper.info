@@ -1,0 +1,15 @@
+core = "7.x"
+description = "Helper functions for the ERPAL contract module"
+name = "erpal_contract_helper"
+package = "ERPAL"
+php = "5.2.4"
+project = "erpal_contract_helper"
+version = "7.x-1.0-dev"
+
+files[] = erpal_contract_helper.module
+; Information added by Drupal.org packaging script on 2015-11-19
+version = "7.x-2.3"
+core = "7.x"
+project = "erpal"
+datestamp = "1447905070"
+

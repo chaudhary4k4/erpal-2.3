@@ -1,0 +1,22 @@
+name = ERPAL book access
+description = The module implements book access
+core = 7.x
+package = ERPAL
+version = 7.x-1.0-dev
+project = erpal_book_access
+dependencies[] = erpal_book
+dependencies[] = erpal_project
+
+; Information added by Drupal.org packaging script on 2015-06-05
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "erpal_book"
+datestamp = "1433507602"
+
+
+; Information added by Drupal.org packaging script on 2015-11-19
+version = "7.x-2.3"
+core = "7.x"
+project = "erpal"
+datestamp = "1447905070"
+

@@ -1,0 +1,12 @@
+name = Entity Reference Unique
+description = Provides validation plugin "validate unique entities" for the Entity Reference
+core = 7.x
+package = Fields
+dependencies[] = entityreference
+
+; Information added by Drupal.org packaging script on 2015-06-03
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "entityreference_unique"
+datestamp = "1433359986"
+

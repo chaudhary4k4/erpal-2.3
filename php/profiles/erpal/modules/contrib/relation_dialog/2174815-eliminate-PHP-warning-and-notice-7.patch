@@ -1,0 +1,26 @@
+From 8d55a4ce062c945d1261da27eaacbe0e1170f8f7 Mon Sep 17 00:00:00 2001
+From: solotandem <jim@boombatower.com>
+Date: Fri, 19 Sep 2014 19:02:45 +0000
+Subject: [PATCH] Issue #2174815: Eliminate PHP warning and notice.
+
+---
+ relation_dialog.module |    3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/relation_dialog.module b/relation_dialog.module
+index bdc4571..62ddf5e 100644
+--- a/relation_dialog.module
++++ b/relation_dialog.module
+@@ -60,6 +60,9 @@ function relation_dialog_field_widget_relation_add_form_alter( &$element, &$form
+   if (!empty($element['relation_type']['#default_value'])) {
+     $value = $element['relation_type']['#default_value'];
+   }
++  elseif (!empty($element['relation_type']['#value'])) {
++    $value = $element['relation_type']['#value'];
++  }
+   else {
+     $value = key($element['relation_type']['#options']);
+   }
+-- 
+1.7.10.4
+

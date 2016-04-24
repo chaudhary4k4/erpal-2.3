@@ -1,0 +1,12 @@
+name = Content Access View
+description = Extends content access control of view permissions.
+core = 7.x
+package = Access control
+dependencies[] = content_access
+
+; Information added by Drupal.org packaging script on 2015-06-03
+version = "7.x-1.0-rc1"
+core = "7.x"
+project = "content_access_view"
+datestamp = "1433360581"
+
